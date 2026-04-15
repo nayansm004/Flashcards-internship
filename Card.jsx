@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Card.module.css'
-import { CATEGORY_COLORS } from '../data'
+import { CATEGORY_COLORS } from './data'
 
 export default function Card({ card, flipped, onClick, total, index }) {
   const color = CATEGORY_COLORS[card.category] || CATEGORY_COLORS.All
