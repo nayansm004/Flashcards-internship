@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { cards as ALL_CARDS, CATEGORIES, CATEGORY_COLORS } from './data'
-import Card from './components/Card'
-import Controls from './components/Controls'
-import Progress from './components/Progress'
-import Results from './components/Results'
+import Card from './Card'
+import Controls from './Controls'
+import Progress from './Progress'
+import Results from './Results'
 import styles from './App.module.css'
 
 function shuffle(arr) {
